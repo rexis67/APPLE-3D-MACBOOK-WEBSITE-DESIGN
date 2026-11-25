@@ -1,0 +1,572 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>MacBook Air 13” with M4 — Apple</title>
+<!-- Google Fonts: Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS v3 -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        fontFamily: {
+          sans: ['Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', sans-serif],
+        },
+        colors: {
+          apple: {
+            black: '#000000',
+            panel: '#0c0c0e',
+            subtle: '#16161a',
+            border: 'rgba(255, 255, 255, 0.08)',
+            borderStrong: 'rgba(255, 255, 255, 0.16)',
+            blue: '#0071e3',
+            blueHover: '#0077ed',
+            muted: '#86868b',
+            light: '#f5f5f7',
+          }
+        },
+        letterSpacing: {
+          hero: '-0.035em',
+          headline: '-0.025em',
+          sub: '-0.01em',
+        }
+      }
+    }
+  }
+</script>
+<style>
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #000000;
+    color: #f5f5f7;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .text-gradient-silver {
+    background: linear-gradient(180deg, #FFFFFF 0%, #a1a1a6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-gradient-display {
+    background: linear-gradient(180deg, #f5f5f7 20%, #86868b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  input[type=range].apple-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    border-radius: 9999px;
+    background: rgba(255, 255, 255, 0.15);
+    outline: none;
+    cursor: pointer;
+  }
+  input[type=range].apple-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #0071e3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: transform 0.15s ease;
+  }
+  input[type=range].apple-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.12);
+  }
+  input[type=range].apple-slider::-moz-range-thumb {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #0071e3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    cursor: pointer;
+    transition: transform 0.15s ease;
+  }
+</style>
+</head>
+<body class="bg-black text-[#f5f5f7] selection:bg-[#0071e3] selection:text-white">
+<!-- Navigation Chrome -->
+<header class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-black/75 border-b border-white/[0.08] transition duration-300" style="backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);">
+<div class="max-w-6xl mx-auto px-6 h-12 flex items-center justify-between text-xs">
+<div class="flex items-center gap-3">
+<a class="text-sm font-semibold tracking-tight text-white flex items-center gap-2" href="#hero">
+<svg class="w-4 h-4 fill-current text-white" viewBox="0 0 170 170">
+<path d="M150.37 130.25c-2.45 5.66-5.35 10.87-8.71 15.66-4.58 6.53-8.33 11.05-11.22 13.56-4.48 4.12-9.28 6.23-14.42 6.35-3.69 0-8.14-1.05-13.32-3.18-5.19-2.12-9.97-3.17-14.34-3.17-4.58 0-9.49 1.05-14.75 3.17-5.26 2.13-9.5 3.24-12.74 3.35-4.35.13-9.16-1.9-14.42-6.08-3.7-3.04-7.69-7.85-11.96-14.42-7.5-11.53-13.1-24.96-16.8-40.29-3.71-15.33-5.56-29.28-5.56-41.87 0-14.47 3.59-26.68 10.77-36.63 7.18-9.95 16.32-15.04 27.42-15.26 4.9.11 10.22 1.41 15.96 3.91 5.74 2.5 9.77 3.75 12.09 3.75 2.12 0 6.24-1.3 12.37-3.91 6.13-2.61 11.43-3.86 15.91-3.75 12.29.54 22.37 4.99 30.24 13.35-10.88 6.64-16.19 15.77-15.92 27.4.27 9.03 3.7 16.59 10.3 22.68 6.6 6.09 14.54 9.47 23.82 10.14-2.17 6.42-4.89 13.06-8.15 19.92zM119.22 31.84c0-7.39 2.66-14.35 7.98-20.88 5.32-6.53 11.96-10.55 19.92-12.06.33 1.09.49 2.06.49 2.93 0 7.39-2.83 14.57-8.48 21.53-5.66 6.96-12.39 10.98-20.19 12.06-.55-1.2-.83-2.39-.83-3.58z"></path>
+</svg>
+<span>MacBook Air</span>
+</a>
+<span class="text-[11px] font-medium text-apple-muted px-2 py-0.5 rounded border border-white/10">13” M4</span>
+</div>
+<nav class="hidden md:flex items-center gap-7 text-xs font-normal text-apple-muted whitespace-nowrap"><a class="hover:text-white transition-colors duration-150" href="#hero">Overview</a><a class="hover:text-white transition-colors duration-150" href="#finishes">Finishes</a><a class="hover:text-white transition-colors duration-150" href="#m4-chip">M4 Architecture</a><a class="hover:text-white transition-colors duration-150 text-apple-blue" href="#apple-intelligence">Intelligence</a><a class="hover:text-white transition-colors duration-150" href="#configurator">Configurator</a><a class="hover:text-white transition-colors duration-150" href="#highlights">Display</a><a class="hover:text-white transition-colors duration-150" href="#compare">Compare</a><a class="hover:text-white transition-colors duration-150" href="#trade-in">Trade In</a><a class="hover:text-white transition-colors duration-150" href="#specs">Tech Specs</a></nav>
+<div class="flex items-center gap-4">
+<span class="text-xs text-apple-muted hidden sm:inline">From $1,099</span>
+<a class="bg-apple-blue hover:bg-apple-blueHover text-white text-xs font-medium px-3.5 py-1 rounded-full transition duration-150" href="#configurator">
+        Buy
+      </a>
+</div>
+</div>
+</header>
+
+<!-- Hero Stage -->
+<section class="relative pt-32 pb-20 overflow-hidden text-center border-b border-apple-border" id="hero">
+<div class="max-w-4xl mx-auto px-6 z-10 relative">
+<p class="text-xs sm:text-sm font-semibold tracking-wide text-apple-blue uppercase mb-3">MacBook Air</p>
+<h1 class="text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-hero text-gradient-silver mb-5 leading-none" style="letter-spacing: -0.035em;">
+      Lean. Mean.<br>M4 machine.
+    </h1>
+<p class="text-lg sm:text-2xl text-apple-muted max-w-2xl mx-auto font-normal tracking-sub leading-snug">
+      Strikingly thin and fast. Supercharged by the M4 chip. With all-day battery life and built for Apple Intelligence.
+    </p>
+<div class="mt-12 sm:mt-16 relative flex justify-center items-center">
+<div class="w-full max-w-4xl mx-auto">
+<img alt="MacBook Air 13-inch with M4 chip in floating profile" class="w-full object-contain mx-auto select-none pointer-events-none drop-shadow-[0_25px_40px_rgba(0,0,0,0.9)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyXqOOuR2TerUvNvt14C_a9bsZF2EUldYXrCCWjZpSMpWN713XzAIVWmrqw2FwxjBgnVbe20Ujd4e-6gzl1RhnNw859wqGy0jV2U7Uvjb_uz6ot95TWDu4bufCVBc4BHW5UyYXGFr6kr6FgJJikjX24K5Qp4ep30Au1FQkvxzoGvSXuT4l2z6XhepNEUV87ZU5YZwfhfl8uE1rM9W4f5JVfg6QyGJLewMDVr8vKNWdmeNSYO1NsFcG">
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-apple-border grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto text-center tabular-nums">
+<div>
+<div class="text-2xl sm:text-3xl font-bold tracking-tight text-white">1.13 cm</div>
+<div class="text-xs text-apple-muted mt-1">Impossibly thin unibody</div>
+</div>
+<div>
+<div class="text-2xl sm:text-3xl font-bold tracking-tight text-white">Up to 18 hrs</div>
+<div class="text-xs text-apple-muted mt-1">Battery life</div>
+</div>
+<div>
+<div class="text-2xl sm:text-3xl font-bold tracking-tight text-white">10-core</div>
+<div class="text-xs text-apple-muted mt-1">Next-gen Apple M4 CPU</div>
+</div>
+<div>
+<div class="text-2xl sm:text-3xl font-bold tracking-tight text-white">1.24 kg</div>
+<div class="text-xs text-apple-muted mt-1">Featherweight portability</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Finishes Selector -->
+<section class="py-24 px-6 bg-apple-panel border-b border-apple-border" id="finishes">
+<div class="max-w-4xl mx-auto text-center">
+<p class="text-xs font-semibold tracking-wide text-apple-muted uppercase mb-2">Four stellar finishes</p>
+<h2 class="text-3xl sm:text-5xl font-bold tracking-headline text-white mb-4">
+      Take your pick.
+    </h2>
+<p class="text-apple-muted text-base max-w-xl mx-auto mb-10">
+      Engineered from 100% recycled aluminum with a breakthrough anodization seal for durability and fingerprint resistance.
+    </p>
+<div class="inline-flex items-center gap-5 p-3 rounded-full bg-black/60 border border-apple-border mb-6">
+<button aria-label="Midnight Finish" class="finish-swatch relative group p-1 rounded-full transition focus:outline-none" data-desc="Deep cosmic blue-black with breakthrough fingerprint resistance." data-finish="Midnight" type="button">
+<span class="w-8 h-8 rounded-full block border border-white/20 transition-all duration-200 ring-2 ring-apple-blue ring-offset-2 ring-offset-black" style="background-color: #2e3642;"></span>
+</button>
+<button aria-label="Starlight Finish" class="finish-swatch relative group p-1 rounded-full transition focus:outline-none" data-desc="Luminous warm champagne metallic with subtle golden luster." data-finish="Starlight" type="button">
+<span class="w-8 h-8 rounded-full block border border-white/20 transition-all duration-200 ring-0 ring-offset-2 ring-offset-black" style="background-color: #e2dcd2;"></span>
+</button>
+<button aria-label="Space Grey Finish" class="finish-swatch relative group p-1 rounded-full transition focus:outline-none" data-desc="Refined, iconic gunmetal tone with precision micro-bead finish." data-finish="Space Grey" type="button">
+<span class="w-8 h-8 rounded-full block border border-white/20 transition-all duration-200 ring-0 ring-offset-2 ring-offset-black" style="background-color: #7d7e80;"></span>
+</button>
+<button aria-label="Silver Finish" class="finish-swatch relative group p-1 rounded-full transition focus:outline-none" data-desc="Timeless pure raw aluminum reflecting pristine natural ambient light." data-finish="Silver" type="button">
+<span class="w-8 h-8 rounded-full block border border-white/20 transition-all duration-200 ring-0 ring-offset-2 ring-offset-black" style="background-color: #e3e4e6;"></span>
+</button>
+</div>
+<div class="min-h-[60px] flex flex-col items-center justify-center">
+<div class="text-lg font-semibold text-white tracking-tight" id="swatch-name">Midnight</div>
+<div class="text-xs sm:text-sm text-apple-muted mt-1 max-w-md" id="swatch-desc">Deep cosmic blue-black with breakthrough fingerprint resistance.</div>
+</div>
+</div>
+</section>
+
+<!-- Apple M4 Architecture -->
+<section class="py-28 px-6 bg-black border-b border-apple-border relative" id="m4-chip">
+<div class="max-w-5xl mx-auto">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<p class="text-xs font-semibold tracking-wide text-apple-blue uppercase mb-2">Apple Silicon</p>
+<h2 class="text-4xl sm:text-6xl font-bold tracking-headline text-gradient-silver mb-4">
+        Rocket fuel for your day.
+      </h2>
+<p class="text-base sm:text-lg text-apple-muted leading-relaxed">
+        The M4 chip introduces groundbreaking performance and energy efficiency built on industry-leading second-generation 3-nanometer architecture.
+      </p>
+</div>
+<div class="rounded-3xl bg-apple-panel border border-apple-border p-8 sm:p-12 grid grid-cols-1 md:grid-cols-12 gap-10 items-center" style="box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);">
+<div class="md:col-span-5 flex flex-col items-center justify-center text-center">
+<div class="w-48 h-48 sm:w-56 sm:h-56 rounded-2xl overflow-hidden p-1 border border-white/10 bg-black/40 shadow-2xl flex items-center justify-center">
+<img alt="Official Apple M4 Chip Logo" class="w-full h-full object-contain rounded-xl select-none" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGGokZuDUBRjlT0KOnx01K5aHk8-AD1dkIqOew2ge7ukNO_Q55NRITLlZ1ghayEGPEeIMKTYJOTnZ_rg9z_sJcaDM_ssZt_L2ITWkB5tPGxd3gUx4-3fpFWm5X2FFs4MZP9b82UKjJ6rgJtWGmnNMPQXbWBpBKGFY2szjAYhcLVTSxCj0JY-XeXYG7rKIu_nTd2zEVdTqv-XYQ9Eh6x4XdwI0J5OsW6LkqrWTvGAarkbWjU3zCozcE">
+</div>
+<span class="mt-4 text-xs font-medium text-apple-muted tracking-wide">Second-Generation 3nm Architecture</span>
+</div>
+<div class="md:col-span-7 space-y-6">
+<div class="border-b border-apple-border pb-5">
+<div class="text-3xl sm:text-4xl font-bold tracking-tight text-white">10-core CPU</div>
+<p class="text-xs sm:text-sm text-apple-muted mt-1 leading-relaxed">
+            Featuring 4 performance cores and 6 efficiency cores. Handles complex compilations, multi-track audio projects, and day-to-day multitasking with breathtaking speed.
+          </p>
+</div>
+<div class="border-b border-apple-border pb-5">
+<div class="text-3xl sm:text-4xl font-bold tracking-tight text-white">Up to 10-core GPU</div>
+<p class="text-xs sm:text-sm text-apple-muted mt-1 leading-relaxed">
+            Hardware-accelerated ray tracing and mesh shading bring photorealistic lighting, reflections, and gaming performance never before seen in MacBook Air.
+          </p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-5 pt-1">
+<div>
+<div class="text-2xl font-bold text-white tracking-tight">16-core NPU</div>
+<div class="text-xs text-apple-muted mt-1">Supercharged Neural Engine built from the silicon up for Apple Intelligence.</div>
+</div>
+<div>
+<div class="text-2xl font-bold text-white tracking-tight">120 GB/s</div>
+<div class="text-xs text-apple-muted mt-1">Unified memory bandwidth for instant data sharing across CPU, GPU, and Neural Engine.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Apple Intelligence -->
+<section class="py-28 px-6 bg-apple-panel border-b border-apple-border relative overflow-hidden" id="apple-intelligence">
+<div class="max-w-5xl mx-auto">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-apple-blue/10 border border-apple-blue/20 mb-4">
+<span class="w-2 h-2 rounded-full bg-apple-blue animate-pulse"></span>
+<span class="text-[11px] font-semibold tracking-wider text-apple-blue uppercase">Apple Intelligence</span>
+</div>
+<h2 class="text-4xl sm:text-6xl font-bold tracking-headline text-gradient-silver mb-4">AI at the speed of thought.<br>Built into your every day.</h2>
+<p class="text-base sm:text-lg text-apple-muted leading-relaxed max-w-2xl mx-auto">Built right into macOS Sequoia, Apple Intelligence helps you write, express yourself, and get things done effortlessly. Grounded in your personal context, with groundbreaking on-device privacy protections.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"><!-- Card 1: Writing Tools -->
+<div class="rounded-3xl bg-black/60 border border-white/10 p-7 flex flex-col justify-between hover:border-apple-blue/40 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(0,113,227,0.25)] group relative overflow-hidden" style="box-shadow: rgba(255, 255, 255, 0.06) 0px 1px 0px inset;">
+  <div class="absolute -inset-px rounded-3xl bg-gradient-to-b from-apple-blue/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none -z-10"></div>
+  <div>
+    <div class="w-10 h-10 rounded-2xl bg-white/10 flex items-center justify-center mb-6 text-apple-blue group-hover:scale-110 group-hover:bg-apple-blue/20 transition-all duration-300">
+      <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"></path></svg>
+    </div>
+    <h3 class="text-xl font-bold text-white mb-2">Writing Tools</h3>
+    <p class="text-xs sm:text-sm text-apple-muted leading-relaxed mb-6">Proofread, summarize, and rewrite text across apps with a single click.</p>
+  </div>
+  <div class="rounded-2xl bg-apple-subtle border border-white/10 p-4 space-y-3">
+    <div class="flex items-center justify-between text-[11px] text-apple-muted border-b border-white/10 pb-2">
+      <span class="font-medium text-white">Tone Adjustment</span>
+      <span class="text-apple-blue">Writing Tools</span>
+    </div>
+    <div class="flex items-center gap-1.5">
+      <span class="px-2 py-1 rounded bg-apple-blue text-white text-[10px] font-semibold hover:scale-105 transition-transform duration-200 cursor-pointer">Concise</span>
+      <span class="px-2 py-1 rounded bg-white/10 text-apple-muted text-[10px] hover:text-white hover:scale-105 transition-all duration-200 cursor-pointer">Professional</span>
+      <span class="px-2 py-1 rounded bg-white/10 text-apple-muted text-[10px] hover:text-white hover:scale-105 transition-all duration-200 cursor-pointer">Friendly</span>
+    </div>
+    <p class="text-[11px] text-white/90 italic leading-snug bg-black/40 p-2.5 rounded-lg border border-white/[0.08]">“Meeting rescheduled to 3 PM. Agenda attached for review.”</p>
+  </div>
+</div>
+
+<!-- Card 2: Clean Up & Playground -->
+<div class="rounded-3xl bg-black/60 border border-white/10 p-7 flex flex-col justify-between hover:border-apple-blue/40 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(0,113,227,0.25)] group relative overflow-hidden" style="box-shadow: rgba(255, 255, 255, 0.06) 0px 1px 0px inset;">
+  <div class="absolute -inset-px rounded-3xl bg-gradient-to-b from-apple-blue/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none -z-10"></div>
+  <div>
+    <div class="w-10 h-10 rounded-2xl bg-white/10 flex items-center justify-center mb-6 text-apple-blue group-hover:scale-110 group-hover:bg-apple-blue/20 transition-all duration-300">
+      <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19.5 12c0-.23-.01-.45-.03-.68l1.86-1.41c.17-.13.22-.38.1-.58l-1.76-3.05c-.12-.2-.37-.28-.58-.19l-2.19.88c-.46-.35-.95-.64-1.49-.86l-.33-2.34C15.05 3.34 14.85 3 14.6 3h-3.52c-.25 0-.45.34-.48.78l-.33 2.34c-.54.22-1.04.51-1.5.86l-2.18-.88c-.21-.09-.46-.01-.58.19L4.25 9.33c-.12.2-.07.45.1.58l1.86 1.41c-.02.23-.03.45-.03.68s.01.45.03.68l-1.86 1.41c-.17.13-.22.38-.1.58l1.76 3.05c.12.2.37.28.58.19l2.18-.88c.46.35.96.64 1.5.86l.33 2.34c.03.44.23.78.48.78h3.52c.25 0 .45-.34.48-.78l.33-2.34c.54-.22 1.03-.51 1.49-.86l2.19.88c.21.09.46.01.58-.19l1.76-3.05c.12-.2.07-.45-.1-.58l-1.86-1.41c.02-.23.03-.45.03-.68zm-7.5 3.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path></svg>
+    </div>
+    <h3 class="text-xl font-bold text-white mb-2">Clean Up &amp; Playground</h3>
+    <p class="text-xs sm:text-sm text-apple-muted leading-relaxed mb-6">Remove unwanted photobombers and transform rough sketches into styled illustrations in seconds.</p>
+  </div>
+  <div class="rounded-2xl bg-apple-subtle border border-white/10 p-4 space-y-2.5">
+    <div class="flex items-center justify-between text-[11px]">
+      <span class="text-apple-muted">Photobomber Detection</span>
+      <span class="text-apple-blue font-semibold">1 Click Clean</span>
+    </div>
+    <div class="h-20 rounded-xl bg-black/50 border border-white/[0.08] relative overflow-hidden flex items-center justify-center before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/10 before:to-transparent before:-translate-x-full group-hover:before:translate-x-full before:transition-transform before:duration-1000">
+      <div class="absolute inset-0 bg-gradient-to-r from-apple-blue/20 to-transparent"></div>
+      <span class="text-xs text-apple-muted font-medium z-10">Distraction eliminated</span>
+    </div>
+  </div>
+</div>
+
+<!-- Card 3: Context & Personal Awareness -->
+<div class="rounded-3xl bg-black/60 border border-white/10 p-7 flex flex-col justify-between hover:border-apple-blue/40 transition-all duration-500 ease-out hover:-translate-y-1.5 hover:shadow-[0_20px_40px_-15px_rgba(0,113,227,0.25)] group relative overflow-hidden" style="box-shadow: rgba(255, 255, 255, 0.06) 0px 1px 0px inset;">
+  <div class="absolute -inset-px rounded-3xl bg-gradient-to-b from-apple-blue/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none -z-10"></div>
+  <div>
+    <div class="flex items-center justify-between mb-4">
+      <div class="w-10 h-10 rounded-2xl bg-white/10 flex items-center justify-center text-apple-blue group-hover:scale-110 group-hover:bg-apple-blue/20 transition-all duration-300">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"></path></svg>
+      </div>
+    </div>
+    <h3 class="text-xl font-bold text-white mb-2">Context &amp; Personal Awareness</h3>
+    <p class="text-xs sm:text-sm text-apple-muted leading-relaxed mb-5">Rich language understanding, onscreen awareness, and cross-app intelligence powered by the 16-core Neural Engine.</p>
+  </div>
+  <div class="rounded-2xl bg-apple-subtle border border-white/10 p-4 space-y-2.5">
+    <div class="flex items-center justify-between text-[11px] text-apple-muted border-b border-white/10 pb-2">
+      <span class="font-medium text-white">Smart Index</span>
+      <span class="text-apple-blue">Cross-App Sync</span>
+    </div>
+    <div class="space-y-1.5">
+      <div class="p-2 rounded-lg bg-black/40 border border-white/[0.08] text-[11px] text-apple-muted hover:border-apple-blue/60 hover:bg-apple-subtle/80 hover:text-white transition-all duration-200 cursor-pointer flex items-center justify-between">
+        <span>“Find flights from Mom's email”</span>
+        <span class="text-[10px] text-apple-blue font-medium">Mail</span>
+      </div>
+      <div class="p-2 rounded-lg bg-black/40 border border-white/[0.08] text-[11px] text-apple-muted hover:border-apple-blue/60 hover:bg-apple-subtle/80 hover:text-white transition-all duration-200 cursor-pointer flex items-center justify-between">
+        <span>“Show keynote slides on Q3 budget”</span>
+        <span class="text-[10px] text-apple-blue font-medium">Keynote</span>
+      </div>
+    </div>
+  </div>
+</div></div>
+</div>
+</section>
+
+<!-- Hardware Configurator -->
+<section class="py-24 px-6 bg-apple-panel border-b border-apple-border" id="configurator">
+<div class="max-w-4xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-14">
+<p class="text-xs font-semibold tracking-wide text-apple-blue uppercase mb-2">Build Yours</p>
+<h2 class="text-3xl sm:text-5xl font-bold tracking-headline text-white mb-3">
+        Configure your MacBook Air.
+      </h2>
+<p class="text-apple-muted text-sm sm:text-base">
+        Select memory, storage capacity, and your finish to view specifications and ideal workflow suitability.
+      </p>
+</div>
+<div class="rounded-3xl bg-black border border-apple-border p-6 sm:p-10 space-y-10" style="box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);">
+<div class="p-4 rounded-2xl bg-apple-subtle border border-apple-border flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+<div>
+<span class="text-apple-muted uppercase tracking-wider text-[10px] font-semibold block mb-0.5">Selected Specification</span>
+<span class="text-white font-medium text-sm" id="cfg-summary-text">M4 (10-core CPU, 10-core GPU) • 16 GB Memory • 512 GB SSD • Midnight</span>
+</div>
+<div class="text-right sm:self-center">
+<span class="inline-block px-3 py-1 rounded-full bg-apple-blue/15 text-apple-blue text-xs font-medium border border-apple-blue/30">
+            Available to ship
+          </span>
+</div>
+</div>
+<!-- Memory -->
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="text-base font-semibold text-white">Unified Memory</h3>
+<p class="text-xs text-apple-muted">120 GB/s bandwidth across all unified tiers</p>
+</div>
+<span class="text-xl font-bold text-white" id="cfg-ram-val">16 GB</span>
+</div>
+<div class="grid grid-cols-3 gap-3">
+<button class="cfg-ram-btn active-segment py-3 px-4 rounded-xl border border-apple-blue bg-apple-blue/10 text-white text-center text-xs font-medium transition" data-idx="0" data-val="16 GB" type="button">
+<span class="block text-sm font-semibold">16 GB</span>
+<span class="text-[11px] text-apple-muted">Standard</span>
+</button>
+<button class="cfg-ram-btn py-3 px-4 rounded-xl border border-apple-border bg-apple-panel text-apple-muted hover:text-white text-center text-xs font-medium transition" data-idx="1" data-val="24 GB" type="button">
+<span class="block text-sm font-semibold">24 GB</span>
+<span class="text-[11px] text-apple-muted">Pro Tasks</span>
+</button>
+<button class="cfg-ram-btn py-3 px-4 rounded-xl border border-apple-border bg-apple-panel text-apple-muted hover:text-white text-center text-xs font-medium transition" data-idx="2" data-val="32 GB" type="button">
+<span class="block text-sm font-semibold">32 GB</span>
+<span class="text-[11px] text-apple-muted">Maximum</span>
+</button>
+</div>
+<input aria-label="Unified Memory slider" class="apple-slider mt-2" id="ram-slider" max="2" min="0" step="1" type="range" value="0">
+<p class="text-xs text-apple-muted leading-relaxed pt-1" id="ram-desc">Fluid everyday multitasking and baseline for on-device Apple Intelligence.</p>
+</div>
+<div class="border-t border-apple-border"></div>
+<!-- Storage -->
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<div>
+<h3 class="text-base font-semibold text-white">Storage (SSD)</h3>
+<p class="text-xs text-apple-muted">High-throughput NVMe flash storage</p>
+</div>
+<span class="text-xl font-bold text-white" id="cfg-ssd-val">512 GB</span>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<button class="cfg-ssd-btn py-3 px-3 rounded-xl border border-apple-border bg-apple-panel text-apple-muted hover:text-white text-center text-xs font-medium transition" data-idx="0" data-val="256 GB" type="button">
+<span class="block text-sm font-semibold">256 GB</span>
+<span class="text-[11px] text-apple-muted">Essential</span>
+</button>
+<button class="cfg-ssd-btn active-segment py-3 px-3 rounded-xl border border-apple-blue bg-apple-blue/10 text-white text-center text-xs font-medium transition" data-idx="1" data-val="512 GB" type="button">
+<span class="block text-sm font-semibold">512 GB</span>
+<span class="text-[11px] text-apple-muted">Recommended</span>
+</button>
+<button class="cfg-ssd-btn py-3 px-3 rounded-xl border border-apple-border bg-apple-panel text-apple-muted hover:text-white text-center text-xs font-medium transition" data-idx="2" data-val="1 TB" type="button">
+<span class="block text-sm font-semibold">1 TB</span>
+<span class="text-[11px] text-apple-muted">Heavy Creator</span>
+</button>
+<button class="cfg-ssd-btn py-3 px-3 rounded-xl border border-apple-border bg-apple-panel text-apple-muted hover:text-white text-center text-xs font-medium transition" data-idx="3" data-val="2 TB" type="button">
+<span class="block text-sm font-semibold">2 TB</span>
+<span class="text-[11px] text-apple-muted">Max Archive</span>
+</button>
+</div>
+<input aria-label="Storage slider" class="apple-slider mt-2" id="ssd-slider" max="3" min="0" step="1" type="range" value="1">
+<p class="text-xs text-apple-muted leading-relaxed pt-1" id="ssd-desc">Sweet spot for creatives. Generous room for photo libraries and pro apps.</p>
+</div>
+
+<!-- Checkout Bar -->
+<div class="rounded-2xl bg-apple-subtle border border-apple-blue/30 p-6 sm:p-7 relative overflow-hidden ring-1 ring-apple-blue/20" id="checkout-summary-bar">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+<div class="md:col-span-7 space-y-1.5">
+<div class="flex items-center gap-2">
+<span class="text-[10px] font-bold text-white uppercase tracking-wider px-2 py-0.5 rounded-full bg-apple-blue">Your Build</span>
+<span class="text-xs text-apple-muted" id="checkout-finish-badge">Midnight</span>
+</div>
+<div class="text-sm sm:text-base font-bold text-white leading-tight" id="checkout-spec-title">MacBook Air 13” (M4, 10-core CPU, 10-core GPU, 16 GB, 512 GB)</div>
+</div>
+<div class="md:col-span-5 flex items-center justify-end gap-5">
+<div class="text-right">
+<div class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight tabular-nums" id="checkout-total-price">$1,099.00</div>
+<div class="text-xs text-apple-blue font-semibold tabular-nums" id="checkout-monthly-rate">or $91.58/mo. for 12 mo.*</div>
+</div>
+<button class="px-6 py-3 rounded-full bg-apple-blue hover:bg-apple-blueHover text-white text-xs font-semibold tracking-wide transition shadow-lg shadow-apple-blue/20 cursor-pointer shrink-0" type="button">
+        Add to Bag
+      </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-[#86868b] text-[11px] border-t border-apple-border py-12 px-6">
+<div class="max-w-4xl mx-auto space-y-6">
+<div class="space-y-2 border-b border-apple-border pb-6 leading-relaxed">
+<p>1. Battery life testing conducted by Apple in February 2025 using preproduction 13-inch MacBook Air systems with Apple M4.</p>
+<p>2. Actual diagonal screen size of the 13.6-inch MacBook Air is 13.6 inches.</p>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+<div>Copyright © 2025 Apple Inc. All rights reserved.</div>
+<div class="flex flex-wrap gap-4">
+<a class="hover:text-white transition" href="#">Privacy Policy</a>
+<a class="hover:text-white transition" href="#">Terms of Use</a>
+<a class="hover:text-white transition" href="#">Sales Policy</a>
+</div>
+</div>
+</div>
+</footer>
+
+<!-- Interactive Scripts -->
+<script>
+  (function() {
+    const swatches = document.querySelectorAll('.finish-swatch');
+    const swatchName = document.getElementById('swatch-name');
+    const swatchDesc = document.getElementById('swatch-desc');
+    const checkoutFinish = document.getElementById('checkout-finish-badge');
+    let currentFinish = "Midnight";
+    swatches.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const finish = btn.getAttribute('data-finish');
+        const desc = btn.getAttribute('data-desc');
+        currentFinish = finish;
+        if (swatchName) swatchName.textContent = finish;
+        if (swatchDesc) swatchDesc.textContent = desc;
+        if (checkoutFinish) checkoutFinish.textContent = finish;
+        swatches.forEach(s => {
+          const circle = s.querySelector('span');
+          if (s === btn) {
+            circle.classList.add('ring-2', 'ring-apple-blue');
+            circle.classList.remove('ring-0');
+          } else {
+            circle.classList.remove('ring-2', 'ring-apple-blue');
+            circle.classList.add('ring-0');
+          }
+        });
+        updateSummary();
+      });
+    });
+
+    const memoryData = [
+      { val: "16 GB", price: 0, desc: "Fluid everyday multitasking and baseline for on-device Apple Intelligence." },
+      { val: "24 GB", price: 200, desc: "Sweet spot for creative workflows, large programming projects, and complex design." },
+      { val: "32 GB", price: 400, desc: "Maximum bandwidth for heavy creative pipelines and virtual machines." }
+    ];
+    const storageData = [
+      { val: "256 GB", price: -100, desc: "Essential flash storage for daily document libraries and cloud sync." },
+      { val: "512 GB", price: 0, desc: "Sweet spot for creatives. Generous room for photo libraries and pro apps." },
+      { val: "1 TB", price: 200, desc: "High-capacity headroom for offline 4K video clips and dev environments." },
+      { val: "2 TB", price: 600, desc: "Maximum offline storage capacity for total archive independence." }
+    ];
+    let currentRamIdx = 0;
+    let currentSsdIdx = 1;
+    const basePrice = 1099;
+
+    const ramBtns = document.querySelectorAll('.cfg-ram-btn');
+    const ssdBtns = document.querySelectorAll('.cfg-ssd-btn');
+    const ramSlider = document.getElementById('ram-slider');
+    const ssdSlider = document.getElementById('ssd-slider');
+    const ramValDisplay = document.getElementById('cfg-ram-val');
+    const ssdValDisplay = document.getElementById('cfg-ssd-val');
+    const ramDescDisplay = document.getElementById('ram-desc');
+    const ssdDescDisplay = document.getElementById('ssd-desc');
+    const summaryText = document.getElementById('cfg-summary-text');
+    const checkoutTotal = document.getElementById('checkout-total-price');
+    const checkoutMonthly = document.getElementById('checkout-monthly-rate');
+    const checkoutSpec = document.getElementById('checkout-spec-title');
+
+    function updateSummary() {
+      if (summaryText) {
+        summaryText.textContent = `M4 (10-core CPU, 10-core GPU) • ${memoryData[currentRamIdx].val} Memory • ${storageData[currentSsdIdx].val} SSD • ${currentFinish}`;
+      }
+      if (checkoutSpec) {
+        checkoutSpec.textContent = `MacBook Air 13” (M4, 10-core CPU, 10-core GPU, ${memoryData[currentRamIdx].val}, ${storageData[currentSsdIdx].val})`;
+      }
+      const total = basePrice + memoryData[currentRamIdx].price + storageData[currentSsdIdx].price;
+      if (checkoutTotal) checkoutTotal.textContent = `$${total.toLocaleString()}.00`;
+      if (checkoutMonthly) checkoutMonthly.textContent = `or $${(total / 12).toFixed(2)}/mo. for 12 mo.*`;
+    }
+
+    function renderConfig() {
+      if (ramValDisplay) ramValDisplay.textContent = memoryData[currentRamIdx].val;
+      if (ramDescDisplay) ramDescDisplay.textContent = memoryData[currentRamIdx].desc;
+      if (ramSlider) ramSlider.value = currentRamIdx;
+      ramBtns.forEach((b, idx) => {
+        if (idx === currentRamIdx) {
+          b.className = "cfg-ram-btn active-segment py-3 px-4 rounded-xl border border-apple-blue bg-apple-blue/10 text-white text-center text-xs font-medium transition";
+        } else {
+          b.className = "cfg-ram-btn py-3 px-4 rounded-xl border border-apple-border bg-apple-panel text-apple-muted hover:text-white text-center text-xs font-medium transition";
+        }
+      });
+
+      if (ssdValDisplay) ssdValDisplay.textContent = storageData[currentSsdIdx].val;
+      if (ssdDescDisplay) ssdDescDisplay.textContent = storageData[currentSsdIdx].desc;
+      if (ssdSlider) ssdSlider.value = currentSsdIdx;
+      ssdBtns.forEach((b, idx) => {
+        if (idx === currentSsdIdx) {
+          b.className = "cfg-ssd-btn active-segment py-3 px-3 rounded-xl border border-apple-blue bg-apple-blue/10 text-white text-center text-xs font-medium transition";
+        } else {
+          b.className = "cfg-ssd-btn py-3 px-3 rounded-xl border border-apple-border bg-apple-panel text-apple-muted hover:text-white text-center text-xs font-medium transition";
+        }
+      });
+      updateSummary();
+    }
+
+    ramBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentRamIdx = parseInt(btn.getAttribute('data-idx'), 10);
+        renderConfig();
+      });
+    });
+    ssdBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentSsdIdx = parseInt(btn.getAttribute('data-idx'), 10);
+        renderConfig();
+      });
+    });
+    if (ramSlider) {
+      ramSlider.addEventListener('input', (e) => {
+        currentRamIdx = parseInt(e.target.value, 10);
+        renderConfig();
+      });
+    }
+    if (ssdSlider) {
+      ssdSlider.addEventListener('input', (e) => {
+        currentSsdIdx = parseInt(e.target.value, 10);
+        renderConfig();
+      });
+    }
+
+    renderConfig();
+  })();
+</script>
+
+
+</body></html>
